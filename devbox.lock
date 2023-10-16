@@ -1,0 +1,20 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "elixir_1_15@latest": {
+      "last_modified": "2023-10-15T14:24:03Z",
+      "resolved": "github:NixOS/nixpkgs/12bdeb01ff9e2d3917e6a44037ed7df6e6c3df9d#elixir_1_15",
+      "version": "1.15.7"
+    },
+    "google-chrome@latest": {
+      "last_modified": "2023-10-15T14:24:03Z",
+      "resolved": "github:NixOS/nixpkgs/12bdeb01ff9e2d3917e6a44037ed7df6e6c3df9d#google-chrome",
+      "version": "118.0.5993.70"
+    },
+    "nodejs@18.18.0": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#nodejs_18",
+      "version": "18.18.0"
+    }
+  }
+}
