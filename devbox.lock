@@ -1,10 +1,25 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "elixir_1_15@latest": {
-      "last_modified": "2023-10-15T14:24:03Z",
-      "resolved": "github:NixOS/nixpkgs/12bdeb01ff9e2d3917e6a44037ed7df6e6c3df9d#elixir_1_15",
-      "version": "1.15.7"
+    "elixir_1_16@latest": {
+      "last_modified": "2024-01-14T03:55:27Z",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#elixir_1_16",
+      "source": "devbox-search",
+      "version": "1.16.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/jb80krh7jnm8sjyhs4ap2ld8sva5l3q5-elixir-1.16.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/1df4zcjwpshf5sz05s2r1f1k4yjkvcxa-elixir-1.16.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/2m875dcj334hsq4vm38rhjwi8b0dk97s-elixir-1.16.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/jawv43fji0py1sqz2z8sllqm73hf2jm6-elixir-1.16.0"
+        }
+      }
     },
     "google-chrome@latest": {
       "last_modified": "2023-10-15T14:24:03Z",

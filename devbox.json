@@ -1,15 +1,12 @@
 {
   "packages": [
-    "elixir_1_15@latest",
     "nodejs@18.18.0",
-    "google-chrome@latest"
+    "google-chrome@latest",
+    "elixir_1_16@latest"
   ],
   "shell": {
     "init_hook": [
       "export ERL_AFLAGS='-kernel shell_history enabled'"
     ]
-  },
-  "nixpkgs": {
-    "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
   }
 }
