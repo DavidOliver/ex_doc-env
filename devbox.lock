@@ -22,14 +22,30 @@
       }
     },
     "google-chrome@latest": {
-      "last_modified": "2023-10-15T14:24:03Z",
-      "resolved": "github:NixOS/nixpkgs/12bdeb01ff9e2d3917e6a44037ed7df6e6c3df9d#google-chrome",
-      "version": "118.0.5993.70"
+      "last_modified": "2024-02-08T11:55:47Z",
+      "resolved": "github:NixOS/nixpkgs/c0b7a892fb042ede583bdaecbbdc804acb85eabe#google-chrome",
+      "source": "devbox-search",
+      "version": "121.0.6167.160"
     },
-    "nodejs@18.18.0": {
-      "last_modified": "2023-09-27T18:02:17Z",
-      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#nodejs_18",
-      "version": "18.18.0"
+    "nodejs@18.19.0": {
+      "last_modified": "2024-01-27T14:55:31Z",
+      "resolved": "github:NixOS/nixpkgs/160b762eda6d139ac10ae081f8f78d640dd523eb#nodejs_18",
+      "source": "devbox-search",
+      "version": "18.19.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/cxxmdlp13rrbcja3cx3lnn9h2vy2avgx-nodejs-18.19.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/qlpzl41kfq83cdd4qkcpw8dy2zsd6acr-nodejs-18.19.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/arx8by5hks81q82m161lmrbf9mdb09fw-nodejs-18.19.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/4f8npbb3cqngfmvla3wl2dsaj7hsh7ks-nodejs-18.19.0"
+        }
+      }
     }
   }
 }
