@@ -2,48 +2,48 @@
   "lockfile_version": "1",
   "packages": {
     "elixir_1_16@latest": {
-      "last_modified": "2024-02-08T11:55:47Z",
-      "resolved": "github:NixOS/nixpkgs/c0b7a892fb042ede583bdaecbbdc804acb85eabe#elixir_1_16",
+      "last_modified": "2024-03-27T18:07:41Z",
+      "resolved": "github:NixOS/nixpkgs/feb8fc72187e5beae47d81fc38541fae89e7eaf8#elixir_1_16",
       "source": "devbox-search",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/fabwrmi8210c86b4wchnrrpkgh46yzpz-elixir-1.16.1"
+          "store_path": "/nix/store/14ssihh6kbb5x8gsy621wr8xngr2cyd0-elixir-1.16.2"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/l2zach206k5b3rr1lcngjivknh8fcb0v-elixir-1.16.1"
+          "store_path": "/nix/store/bjyimy4g6hka24sfp1nprb3px61w8wzk-elixir-1.16.2"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/g0jk5i546wxy7f3dqn59n5xqcv8zxkgr-elixir-1.16.1"
+          "store_path": "/nix/store/x81s7v3sxczyxapva5dpgd03qjv8lnpb-elixir-1.16.2"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/wkd94x2vq819ihj727anpy2pnv2z85i6-elixir-1.16.1"
+          "store_path": "/nix/store/livdyr640rpjkyadwg5wfwx5iypbla52-elixir-1.16.2"
         }
       }
     },
     "google-chrome@latest": {
-      "last_modified": "2024-02-08T11:55:47Z",
-      "resolved": "github:NixOS/nixpkgs/c0b7a892fb042ede583bdaecbbdc804acb85eabe#google-chrome",
+      "last_modified": "2024-06-03T07:19:07Z",
+      "resolved": "github:NixOS/nixpkgs/4a4ecb0ab415c9fccfb005567a215e6a9564cdf5#google-chrome",
       "source": "devbox-search",
-      "version": "121.0.6167.160"
+      "version": "125.0.6422.141"
     },
-    "nodejs@18.19.0": {
-      "last_modified": "2024-01-27T14:55:31Z",
-      "resolved": "github:NixOS/nixpkgs/160b762eda6d139ac10ae081f8f78d640dd523eb#nodejs_18",
+    "nodejs@18.20.2": {
+      "last_modified": "2024-05-22T06:18:38Z",
+      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#nodejs_18",
       "source": "devbox-search",
-      "version": "18.19.0",
+      "version": "18.20.2",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/cxxmdlp13rrbcja3cx3lnn9h2vy2avgx-nodejs-18.19.0"
+          "store_path": "/nix/store/ryz5m9pfjydwh2jn8rnhmbiy1hl1q3qp-nodejs-18.20.2"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/qlpzl41kfq83cdd4qkcpw8dy2zsd6acr-nodejs-18.19.0"
+          "store_path": "/nix/store/lpvidxshdc4ibdhqrp1z7p5zg1z40f43-nodejs-18.20.2"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/arx8by5hks81q82m161lmrbf9mdb09fw-nodejs-18.19.0"
+          "store_path": "/nix/store/iydhsvwc8pmyhzm2zh0lsf8k3x49kbqf-nodejs-18.20.2"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/4f8npbb3cqngfmvla3wl2dsaj7hsh7ks-nodejs-18.19.0"
+          "store_path": "/nix/store/l6sykmmiavsfl44p16643x59282n78ll-nodejs-18.20.2"
         }
       }
     }

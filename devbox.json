@@ -2,7 +2,7 @@
   "packages": [
     "google-chrome@latest",
     "elixir_1_16@latest",
-    "nodejs@18.19.0"
+    "nodejs@18.20.2"
   ],
   "shell": {
     "init_hook": [
