@@ -1,6 +1,27 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "caddy@latest": {
+      "last_modified": "2024-05-29T10:04:41Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#caddy",
+      "source": "devbox-search",
+      "version": "2.7.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/w6yh3m7pvc1cn36bfyizzjmxbijws0yd-caddy-2.7.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/n6qcybx2ckw6yrvyqs09rbc0af3w7gd0-caddy-2.7.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/c618m2j7qdr1yd2wsi2x1z3f5can4g8p-caddy-2.7.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/c496kw0yni8wjg8636dwvnjb4hcn21c7-caddy-2.7.6"
+        }
+      }
+    },
     "elixir_1_16@latest": {
       "last_modified": "2024-03-27T18:07:41Z",
       "resolved": "github:NixOS/nixpkgs/feb8fc72187e5beae47d81fc38541fae89e7eaf8#elixir_1_16",

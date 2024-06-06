@@ -2,8 +2,12 @@
   "packages": [
     "google-chrome@latest",
     "elixir_1_16@latest",
-    "nodejs@18.20.2"
+    "nodejs@18.20.2",
+    "caddy@latest"
   ],
+  "env": {
+    "CADDY_ROOT_DIR": "$PWD/ex_doc/doc"
+  },
   "shell": {
     "init_hook": [
       "export ERL_AFLAGS='-kernel shell_history enabled'"

@@ -25,3 +25,9 @@ Develop ExDoc as usual:
     (devbox) $ mix setup
     (devbox) $ mix build
     (devbox) $ npm run --prefix assets build:watch
+
+The built documentation resides in the `ex_doc/doc` directory.
+
+To make the built documentation available to other devices at port `8082`:
+
+    (devbox) $ devbox services up
