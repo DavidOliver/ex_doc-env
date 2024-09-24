@@ -1,8 +1,8 @@
 {
   "packages": [
     "google-chrome@latest",
-    "elixir_1_16@latest",
-    "nodejs@18.20.2",
+    "elixir_1_17@latest",
+    "nodejs@18.20.4",
     "caddy@latest"
   ],
   "env": {

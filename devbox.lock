@@ -2,69 +2,192 @@
   "lockfile_version": "1",
   "packages": {
     "caddy@latest": {
-      "last_modified": "2024-05-29T10:04:41Z",
+      "last_modified": "2024-09-10T15:01:03Z",
       "plugin_version": "0.0.3",
-      "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#caddy",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#caddy",
       "source": "devbox-search",
-      "version": "2.7.6",
+      "version": "2.8.4",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/w6yh3m7pvc1cn36bfyizzjmxbijws0yd-caddy-2.7.6"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/74v8xnm6jls4n40wqfsk0f60468k1fz9-caddy-2.8.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/74v8xnm6jls4n40wqfsk0f60468k1fz9-caddy-2.8.4"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/n6qcybx2ckw6yrvyqs09rbc0af3w7gd0-caddy-2.7.6"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/slaf8sbgs814sgj71gr0w5ad6w07yrjz-caddy-2.8.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/slaf8sbgs814sgj71gr0w5ad6w07yrjz-caddy-2.8.4"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/c618m2j7qdr1yd2wsi2x1z3f5can4g8p-caddy-2.7.6"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/854ps2a0p2300fhzr7pz0izkvdl1rk8g-caddy-2.8.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/854ps2a0p2300fhzr7pz0izkvdl1rk8g-caddy-2.8.4"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/c496kw0yni8wjg8636dwvnjb4hcn21c7-caddy-2.7.6"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d59pz9n8kzwd66zlh8s7hq042lpfh0nv-caddy-2.8.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d59pz9n8kzwd66zlh8s7hq042lpfh0nv-caddy-2.8.4"
         }
       }
     },
-    "elixir_1_16@latest": {
-      "last_modified": "2024-03-27T18:07:41Z",
-      "resolved": "github:NixOS/nixpkgs/feb8fc72187e5beae47d81fc38541fae89e7eaf8#elixir_1_16",
+    "elixir_1_17@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#elixir_1_17",
       "source": "devbox-search",
-      "version": "1.16.2",
+      "version": "1.17.2",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/14ssihh6kbb5x8gsy621wr8xngr2cyd0-elixir-1.16.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zzq6li4sldx509xqwx11qbsvyf16dcgf-elixir-1.17.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zzq6li4sldx509xqwx11qbsvyf16dcgf-elixir-1.17.2"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/bjyimy4g6hka24sfp1nprb3px61w8wzk-elixir-1.16.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bff6bnd22jgk17z9x0hfazabcq9x6hvv-elixir-1.17.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bff6bnd22jgk17z9x0hfazabcq9x6hvv-elixir-1.17.2"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/x81s7v3sxczyxapva5dpgd03qjv8lnpb-elixir-1.16.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3wi043v6yx4hvj1462wck1s0i1v900ri-elixir-1.17.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3wi043v6yx4hvj1462wck1s0i1v900ri-elixir-1.17.2"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/livdyr640rpjkyadwg5wfwx5iypbla52-elixir-1.16.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rr8i0wx8h0p34nv04xwvpc8ik7f61xp3-elixir-1.17.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rr8i0wx8h0p34nv04xwvpc8ik7f61xp3-elixir-1.17.2"
         }
       }
     },
     "google-chrome@latest": {
-      "last_modified": "2024-06-03T07:19:07Z",
-      "resolved": "github:NixOS/nixpkgs/4a4ecb0ab415c9fccfb005567a215e6a9564cdf5#google-chrome",
+      "last_modified": "2024-09-13T05:52:00Z",
+      "resolved": "github:NixOS/nixpkgs/673d99f1406cb09b8eb6feab4743ebdf70046557#google-chrome",
       "source": "devbox-search",
-      "version": "125.0.6422.141"
-    },
-    "nodejs@18.20.2": {
-      "last_modified": "2024-05-22T06:18:38Z",
-      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#nodejs_18",
-      "source": "devbox-search",
-      "version": "18.20.2",
+      "version": "128.0.6613.138",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/ryz5m9pfjydwh2jn8rnhmbiy1hl1q3qp-nodejs-18.20.2"
-        },
-        "aarch64-linux": {
-          "store_path": "/nix/store/lpvidxshdc4ibdhqrp1z7p5zg1z40f43-nodejs-18.20.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r84avlx30qwnkpzzrcj2lvssq99jnrzf-google-chrome-128.0.6613.138",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r84avlx30qwnkpzzrcj2lvssq99jnrzf-google-chrome-128.0.6613.138"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/iydhsvwc8pmyhzm2zh0lsf8k3x49kbqf-nodejs-18.20.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g7b1dlsf4xz25va86gx4z34lrqb36vzx-google-chrome-128.0.6613.138",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g7b1dlsf4xz25va86gx4z34lrqb36vzx-google-chrome-128.0.6613.138"
+        }
+      }
+    },
+    "nodejs@18.20.4": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#nodejs_18",
+      "source": "devbox-search",
+      "version": "18.20.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mq4a000w2661rsz18bc66kspz46xg36i-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/m6bjaxvy75snd24fk3kki98f80k0zazj-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/mq4a000w2661rsz18bc66kspz46xg36i-nodejs-18.20.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f92p8im867b0ih7x75fhvzq1n03a88nm-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/bd2r8dn44lx8bkjikf7y0nlg9swyn90d-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/f92p8im867b0ih7x75fhvzq1n03a88nm-nodejs-18.20.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6ig5ijfhc8amfwh3y9kdh7yrfcv6wnzh-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/74gg33cz9cksv940ffxrbx75z160k5cr-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/6ig5ijfhc8amfwh3y9kdh7yrfcv6wnzh-nodejs-18.20.4"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/l6sykmmiavsfl44p16643x59282n78ll-nodejs-18.20.2"
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lgw9z5sf9n6pm2dqmd92z4gq4irslnq1-nodejs-18.20.4",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/rgrg7ccyvbzj6v9fdhbzvr3di2hl4458-nodejs-18.20.4-libv8"
+            }
+          ],
+          "store_path": "/nix/store/lgw9z5sf9n6pm2dqmd92z4gq4irslnq1-nodejs-18.20.4"
         }
       }
     }
