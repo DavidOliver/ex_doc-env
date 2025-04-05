@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"lexical.server.projectDir": "ex_doc"
+	}
 }
